@@ -29,7 +29,7 @@ export default function Footer() {
             href="https://github.com/Icanskk9"
             
           >
-            rewriter Muhammad Ichsan Nurzaman
+            &nbsp;Rewriter Muhammad Ichsan Nurzaman
             
           </a>
         </p>

@@ -4,7 +4,7 @@
 
 ## Demo
 
-Anda dapat melihat demo langsung dari NIKAHFIX di sini: [NIKAHFIX - Demo](https://nikahfix-v01.vercel.app/)
+Anda dapat melihat demo langsung dari NIKAHFIX di sini: [NIKAHFIX - Demo](https://www.nikahfixyuk.web.id/)/)
 
 ## Teknologi yang Digunakan
 

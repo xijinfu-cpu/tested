@@ -11,6 +11,7 @@ const TagItem = ({ title }) => {
 
 export default function Thumbnail() {
   const [isOpenDetail, setIsOpenDetail] = React.useState(false);
+  const base = import.meta.env.BASE_URL || '/';
 
   if (isOpenDetail) {
     return <DetailInfo />;
@@ -20,7 +21,7 @@ export default function Thumbnail() {
       <div className="pb-10  pt-2 bg-gradient-to-b from-transparent via-black to-black">
         <div className="px-5 mb-10 space-y-2">
           <img
-            src="/images/NIKAHFIX.webp"
+            src={`${base}images/NIKAHFIX.webp`}
             alt="NIKAHFIX"
             width={56}
             height={15}

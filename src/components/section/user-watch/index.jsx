@@ -9,12 +9,13 @@ function getInviteeName() {
 
 export default function UserWatch({ onClick }) {
   const invitee = getInviteeName();
+  const base = import.meta.env.BASE_URL || '/';
 
   return (
     <div className="py-10 text-center space-y-28">
       <img
         className="mx-auto"
-        src="images/NIKAHFIX.webp"
+        src={`${base}images/NIKAHFIX.webp`}
         width={'180px'}
         height={'48px'}
         alt="nikahfix"
@@ -24,7 +25,7 @@ export default function UserWatch({ onClick }) {
         <div onClick={onClick} className="group cursor-pointer">
           <img
             className="mx-auto group-hover:scale-125"
-            src="images/guest-icon.png"
+            src={`${base}images/guest-icon.png`}
             width={100}
             height={100}
             alt="nikahfix"

@@ -1,27 +1,28 @@
 import React from 'react';
 
 const KadoRekening = () => {
+  const base = import.meta.env.BASE_URL || '/';
   const rekeningList = [
     { 
       id: 1, 
       bank: '',
       nomor: '123456789', 
       nama: 'Fatma', 
-      logo: '/images/Logo_dana_blue.svg.png'
+      logo: `${base}images/Logo_dana_blue.svg.png`
     },
     { 
       id: 2, 
       bank: '', 
       nomor: '123456789', 
       nama: 'Slamet', 
-      logo: '/images/2560px-Bank_Central_Asia.svg.png' 
+      logo: `${base}images/2560px-Bank_Central_Asia.svg.png` 
     },
     { 
       id: 3, 
       bank: '', 
       nomor: '123456789', 
       nama: 'Slamet', 
-      logo: '/images/Bank_Mandiri_logo_2016.svg.png' 
+      logo: `${base}images/Bank_Mandiri_logo_2016.svg.png` 
     },
   ];
 

@@ -9,11 +9,12 @@ import Footer from '../footer';
 import KadoRekening from '../kadoRekening';
 
 export default function DetailInfo() {
+  const base = import.meta.env.BASE_URL || '/';
   return (
     <div className="space-y-5 pb-10">
       <video className="w-full" autoPlay on loop-on controls onVolumeChange={0.001}>
         <source
-          src="/images/myvideo.mp4"
+          src={`${base}images/myvideo.mp4`}
           type="video/mp4"
         />
         Your browser does not support the video tag.

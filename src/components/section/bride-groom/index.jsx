@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Bridegroom() {
+  const base = import.meta.env.BASE_URL || '/';
   return (
     <div>
       <h2 className="text-lg leading-5 text-white font-bold mb-2">
@@ -9,7 +10,7 @@ export default function Bridegroom() {
       <div className="grid grid-cols-2 gap-5">
         <div>
           <img
-            src="images/fatmaa.jpeg"
+            src={`${base}images/fatmaa.jpeg`}
             className="w-full rounded-md"
             height={164}
           />
@@ -22,7 +23,7 @@ export default function Bridegroom() {
         </div>
         <div>
           <img
-            src="images/slamett.jpeg"
+            src={`${base}images/slamett.jpeg`}
             className="full rounded-md"
             height={164}
           />

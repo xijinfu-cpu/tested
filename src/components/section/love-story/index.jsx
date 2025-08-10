@@ -35,20 +35,20 @@ export default function LoveStory() {
       </h2>
       <div className="space-y-4">
         <LoveItem
-          imageUrl="images/dummy.png"
+          imageUrl="images/story1.jpeg"
           title="Episode 1: How We Met Each Other that Time"
           duration="26m 10s"
           description="Aku dan Kamu pertama kali bertemu sebagai rekan kerja di kantor yang sama. Kegiatan-kegiatan kecil kantor yang sering melibatkan orang-orang didala..."
         />
         <LoveItem
-          imageUrl="images/dummy.png"
-          title="Episode 1: How We Met Each Other that Time"
+          imageUrl="images/story2.jpg"
+          title="Episode 2: How We Met Each Other that Time"
           duration="26m 10s"
           description="Aku dan Kamu pertama kali bertemu sebagai rekan kerja di kantor yang sama. Kegiatan-kegiatan kecil kantor yang sering melibatkan orang-orang didala..."
         />
         <LoveItem
-          imageUrl="images/dummy.png"
-          title="Episode 1: How We Met Each Other that Time"
+          imageUrl="images/story3.jpeg"
+          title="Episode 3: How We Met Each Other that Time"
           duration="26m 10s"
           description="Aku dan Kamu pertama kali bertemu sebagai rekan kerja di kantor yang sama. Kegiatan-kegiatan kecil kantor yang sering melibatkan orang-orang didala..."
         />

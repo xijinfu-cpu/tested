@@ -10,14 +10,14 @@ export default function TitleInfo() {
         </span>
       </div>
       <h2 className="text-lg leading-5 text-white font-bold">
-        Aku &amp; Kamu : Hari Bertemu
+        Aku &amp; Kamu : Sebelum Hari H
       </h2>
       <div className="flex gap-1 items-center">
         <span className="text-green-500 mr-2">100% match</span>
         <span className="bg-[#4D4D4D] text-white text-xs px-1 py-0 mr-2 rounded-sm">
           Explict
         </span>
-        <span className="text-white mr-2">2024</span>
+        <span className="text-white mr-2">2025</span>
         <span className="text-white mr-2">1h 26m</span>
         <span>
           <img src="/images/4k-icon.png" width={16} height={16} alt="4k" />

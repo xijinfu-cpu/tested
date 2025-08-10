@@ -1,6 +1,15 @@
 import React from 'react';
 
+function getInviteeName() {
+  const params = new URLSearchParams(window.location.search);
+  const raw = params.get('to');
+  if (!raw) return 'Guest';                 // fallback kalau tidak ada ?to=
+  return decodeURIComponent(raw.replace(/\+/g, ' '));
+}
+
 export default function UserWatch({ onClick }) {
+  const invitee = getInviteeName();
+
   return (
     <div className="py-10 text-center space-y-28">
       <img
@@ -21,7 +30,7 @@ export default function UserWatch({ onClick }) {
             alt="nikahfix"
           />
           <p className="text-xl mt-4 group-hover:scale-100 group-hover:pt-5">
-            Friends
+            {invitee}
           </p>
         </div>
       </div>

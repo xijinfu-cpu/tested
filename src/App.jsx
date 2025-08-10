@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import UserWatch from './components/section/user-watch';
 import Thumbnail from './components/section/thumbnail';
+import WishSection from './components/section/wish';
 
 function App() {
   const [isLogin, setIsLogin] = useState(false);

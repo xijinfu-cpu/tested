@@ -16,20 +16,21 @@ export default function Footer() {
             className="underline"
             target="_blank"
             rel="noreferrer"
-            href="https://www.facebook.com/arifintajul4"
+            href="https://www.digsy.tech"
             
           >
-            Tajul Arifin S & 
+            Digsy &
+
             
           </a>
           <a
             className="underline"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/Icanskk9"
+            href="https://instagram.com/mrys0"
             
           >
-            &nbsp;Rewriter Muhammad Ichsan Nurzaman
+            &nbsp;Rewriter Muhammad Raykram
             
           </a>
         </p>

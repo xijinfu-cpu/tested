@@ -9,27 +9,27 @@ export default function Bridegroom() {
       <div className="grid grid-cols-2 gap-5">
         <div>
           <img
-            src="images/Doraemon.png"
+            src="images/fatmaa.jpeg"
             className="w-full rounded-md"
             height={164}
           />
           <div>
-            <h4 className="text-sm text-white font-medium mt-2">Doremon</h4>
+            <h4 className="text-sm text-white font-medium mt-2">Fatmawati</h4>
             <p className="text-[#A3A1A1] text-xs leading-4 mt-2">
-              Putra dari Doraemon &amp; Doraemon
+              Putri dari Suyadi &amp; Ibu Parjinem
             </p>
           </div>
         </div>
         <div>
           <img
-            src="images/Doraemon.png"
+            src="images/slamett.jpeg"
             className="full rounded-md"
             height={164}
           />
           <div>
-            <h4 className="text-sm text-white font-medium mt-2">Doraemoncewe</h4>
+            <h4 className="text-sm text-white font-medium mt-2">Slamet Riyadi</h4>
             <p className="text-[#A3A1A1] text-xs leading-4 mt-2">
-              Putri dari Doraemon &amp; Doraemon
+              Putra dari Arpa &amp; Ibu Hasiri
             </p>
           </div>
         </div>

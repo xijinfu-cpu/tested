@@ -6,13 +6,14 @@ import LoveStory from '../love-story';
 import OurGallery from '../our-gallery';
 import WishSection from '../wish';
 import Footer from '../footer';
+import KadoRekening from '../kadoRekening';
 
 export default function DetailInfo() {
   return (
     <div className="space-y-5 pb-10">
       <video className="w-full" autoPlay on loop-on controls onVolumeChange={0.001}>
         <source
-          src="/images/videoplayback.mp4"
+          src="/images/myvideo.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
@@ -23,6 +24,7 @@ export default function DetailInfo() {
       <LoveStory />
       <OurGallery />
       <WishSection />
+      <KadoRekening/>
       <Footer />
     </div>
   );

@@ -27,8 +27,8 @@ export default function Thumbnail() {
           />
           <div>
             <h1 className="font-bold text-3xl leading-none">
-              Dora & Emon: <br />
-              Sebelum Bertemu
+              Fatma & Slamet: <br />
+              Sebelum Hari H
             </h1>
           </div>
           <div>

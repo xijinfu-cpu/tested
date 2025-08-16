@@ -17,7 +17,10 @@ export default function Thumbnail() {
     return <DetailInfo />;
   }
   return (
-    <div className="min-h-screen bg-thumbnail bg-contain bg-no-repeat flex flex-col justify-end">
+    <div
+      className="min-h-screen bg-cover bg-no-repeat flex flex-col justify-end text-white"
+      style={{ backgroundImage: `url(${base}images/thumbnail.webp)` }}
+    >
       <div className="pb-10  pt-2 bg-gradient-to-b from-transparent via-black to-black">
         <div className="px-5 mb-10 space-y-2">
           <img

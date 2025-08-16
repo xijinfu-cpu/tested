@@ -37,21 +37,21 @@ export default function LoveStory() {
       <div className="space-y-4">
         <LoveItem
           imageUrl={`${base}images/story1.jpeg`}
-          title="Episode 1: How We Met Each Other that Time"
-          duration="26m 10s"
-          description="Aku dan Kamu pertama kali bertemu sebagai rekan kerja di kantor yang sama. Kegiatan-kegiatan kecil kantor yang sering melibatkan orang-orang didala..."
+          title="Episode 1: Perjumpaan Tak Terduga"
+          duration="27m 14s"
+          description="Kisah kami dimulai dari sebuah pertemuan yang tak direncanakan, namun membawa dua hati bertemu dalam perjalanan yang tak terduga."
         />
         <LoveItem
           imageUrl={`${base}images/story2.jpg`}
-          title="Episode 2: How We Met Each Other that Time"
-          duration="26m 10s"
-          description="Aku dan Kamu pertama kali bertemu sebagai rekan kerja di kantor yang sama. Kegiatan-kegiatan kecil kantor yang sering melibatkan orang-orang didala..."
+          title="Episode 2: Cinta yang Tumbuh"
+          duration="32m 10s"
+          description="Seiring waktu, cinta kami berkembang, menguat, dan saling melengkapi dalam perjalanan yang penuh makna."
         />
         <LoveItem
           imageUrl={`${base}images/story3.jpeg`}
-          title="Episode 3: How We Met Each Other that Time"
-          duration="26m 10s"
-          description="Aku dan Kamu pertama kali bertemu sebagai rekan kerja di kantor yang sama. Kegiatan-kegiatan kecil kantor yang sering melibatkan orang-orang didala..."
+          title="Episode 3: Hari yang Sempurna"
+          duration="22m 10s"
+          description="Kini, kami siap melangkah ke babak baru dalam hidup, berbagi kebahagiaan dan cinta dalam hari yang penuh berkah."
         />
       </div>
     </div>

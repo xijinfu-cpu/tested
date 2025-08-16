@@ -5,9 +5,9 @@ export default function Footer() {
     <div>
       <div className="mt-8 flex flex-col  items-center">
         <p className="font-bold text-white text-sm">
-          Thank you for checking up all the things up there!
+        Terima kasih atas perhatian dan waktu Anda
         </p>
-        <p className="font-bold text-white text-sm">Can’t wait to see u again! 🤍</p>
+        <p className="font-bold text-white text-sm">Kami sangat menantikan pertemuan berikutnya.🤍</p>
       </div>
       <div className="mt-8 flex flex-col items-center">
         <p className="text-[10px] text-[#A3A1A1] mb-6">
@@ -16,7 +16,7 @@ export default function Footer() {
             className="underline"
             target="_blank"
             rel="noreferrer"
-            href="https://www.digsy.tech"
+            href="https://www.digsy.my.id"
             
           >
             Digsy &

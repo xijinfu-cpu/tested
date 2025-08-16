@@ -32,9 +32,13 @@ export default function TitleInfo() {
       </div>
       <div className="pt-2">
         <p className="text-white text-sm leading-[1.15rem] mb-2">
-          Setelah Aku dan Kamu dipertemukan dalam situasi yang tepat, di mana
-          keduanya telah siap untuk memulai hubungan bersama, tibalah mereka di
-          awal perjalanan baru menuju pernikahan.
+        Setelah bertemu dalam sebuah momen tak terduga, kami berdua 
+        mulai menulis kisah cinta yang tak terpisahkan. Dalam perjalanan 
+        yang penuh warna ini, kami menemui banyak tantangan, tawa, dan 
+        kebahagiaan. Kini, kami siap melangkah bersama menuju babak baru 
+        yang lebih indah, dengan cinta yang lebih kuat dan harapan yang 
+        lebih besar. Saksikan perjalanan cinta kami, yang terus berkembang 
+        hingga mencapai momen yang sangat istimewa ini.
         </p>
         <p className="font-bold text-[#AFADA9] text-[10px] leading-[1rem]">
           "Segala sesuatu Kami ciptakan berpasang-pasangan agar kamu mengingat

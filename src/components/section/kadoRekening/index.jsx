@@ -32,22 +32,22 @@ const KadoRekening = () => {
       <h3 className="text-white text-lg font-bold mb-2">Send Gifts</h3>
 
       <p className="mt-2 text-sm text-white leading-relaxed">
-        Terima kasih atas kehadiran dan doa restu Anda. bagi Kamu yang ingin memberikan hadiah untuk pernikahan kami, berikut adalah nomor rekening kami:
+      Kami dengan tulus menerima hadiah dari Anda sebagai tanda cinta dan doa. Kehadiran Anda sudah merupakan berkah bagi kami, dan setiap hadiah yang diberikan akan selalu kami hargai. Bagi yang ingin memberikan hadiah melalui transfer, berikut adalah nomor rekening kami:
       </p>
 
-      <div className="flex flex-col items-center gap-3 mt-5">
+      <div className="flex flex-col items-center gap-5 mt-9">
         {rekeningList.map((rekening) => (
           <div
             key={rekening.id}
-            className="flex flex-col items-center border border-gray-300 rounded-lg p-3 w-80 text-center shadow-md bg-gray-500"
+            className="flex flex-col items-center border border-gray-300 rounded-lg p-3 w-80 text-center shadow-md bg-gray-100"
           >
             <img 
               src={rekening.logo} 
               alt={`${rekening.bank} Logo`} 
-              className="w-[130px] h-[40px] mb-1"
+              className="w-[135px] h-[40px] mb-1"
             />
-            <p className="text-base font-bold text-white">{rekening.nomor}</p>
-            <p className="text-xs font-bold text-white">a.n {rekening.nama}</p>
+            <p className="text-base font-bold text-black">{rekening.nomor}</p>
+            <p className="text-xs font-bold text-black">a.n {rekening.nama}</p>
           </div>
         ))}
       </div>
